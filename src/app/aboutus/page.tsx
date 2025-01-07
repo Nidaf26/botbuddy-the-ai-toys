@@ -1,7 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-
 function Page() {
   return (
     <section className='overflow-x-hidden'> 

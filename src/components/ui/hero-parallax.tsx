@@ -108,7 +108,7 @@ export const Header = () => {
         BotBuddy <br /> The AI toys
       </h1>
       <p className="max-w-2xl text-base md:text-xl font-bold mt-8 dark:text-neutral-200">
-        "Welcome to BotBuddy! we're AI-powerd toy company designed for kids of all ages. Join us and discover a worlf of fun,learning and innovation!"
+      &quot;Welcome to BotBuddy! we&quot;re AI-powerd toy company designed for kids of all ages. Join us and discover a worlf of fun,learning and innovation!&quot;
       </p>
     </div>
   );
