@@ -81,24 +81,6 @@ export const products = [
     thumbnail:
       "/Images/robo6.jpg",
   },
-  {
-    title: "Golden Bells Academy",
-    link: "/",
-    thumbnail:
-      "/Images/robo12.jpg",
-  },
-  {
-    title: "Invoker Labs",
-    link: "/",
-    thumbnail:
-      "/Images/robo11.webp",
-  },
-  {
-    title: "E Free Invoice",
-    link: "/",
-    thumbnail:
-      "/Images/robo11.webp",
-  },
 ];
 
 export default Heroparallax;
