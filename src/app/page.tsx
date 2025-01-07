@@ -1,5 +1,5 @@
 import Header  from "@/components/Header";
-import Heroparallax from "@/components/here-parallax";
+import Heroparallax from "@/components/hero-parallax";
 
 export default function Home() {
   return (
