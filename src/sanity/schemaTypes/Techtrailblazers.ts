@@ -1,8 +1,8 @@
 import { defineField, defineType } from "sanity";
 
-const productType = defineType ({
-    title:"product",
-    name:"product",
+const TechTrialBlazer = defineType ({
+    title:"TechTrialBlazer",
+    name:"TechTrialBlazer",
     type:"document",
     fields:[
        defineField({
@@ -33,4 +33,4 @@ const productType = defineType ({
           })
     ]
 })
-export default productType ;
+export default TechTrialBlazer ;

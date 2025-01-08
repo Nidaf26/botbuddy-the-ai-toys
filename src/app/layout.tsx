@@ -3,6 +3,7 @@ import "./globals.css";
 import Josefinsans from "./fonts/font";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Categories from "@/components/categories";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,6 +21,7 @@ export default function RootLayout({
         className={`${Josefinsans.className} antialiased`}
       >
         <Header/>
+        <Categories />
         {children}
         <Footer/>
       </body>

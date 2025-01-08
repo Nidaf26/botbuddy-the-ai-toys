@@ -13,10 +13,10 @@ export const products = [
       "/Images/robopic1.webp",
   },
   {
-    title: "Cursor",
+    title: "Finopoly",
     link: "/",
     thumbnail:
-      "/Images/robo5.jpg",
+      "/Images/Finopoly.png",
   },
   {
     title: "Rogue",
@@ -48,13 +48,13 @@ export const products = [
     title: "Algochurn",
     link: "/",
     thumbnail:
-      "/Images/robo8.jpg",
+      "/Images/CodeGuru.png",
   },
   {
     title: "Aceternity UI",
     link: "/",
     thumbnail:
-      "/Images/robopic1.webp",
+      "/Images/TalkyToon.png",
   },
   {
     title: "Tailwind Master Kit",

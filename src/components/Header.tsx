@@ -21,7 +21,7 @@ function Header() {
     <header className='overflow-x-hidden'>
       {/* dekstop side bar */}
         <nav className='flex justify-around items-center bg-[#441752] text-white h-[70px] xsm:hidden ssm:hidden'>
-          <div className='text-[30px] font-bold ssm:text-[24px] xsm:text-[20px]'>
+          <div className='text-[30px] font-bold ssm:text-[24px] msm:text-[20px] xsm:text-[20px]'>
             BotBuddy: The AI toys
           </div>
           <div className=' w-[310px] text-[18px] flex justify-between items-center ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
@@ -47,7 +47,7 @@ function Header() {
         {/* mobile side bar */}
         <nav className={`fixed inset-y-0 right-0 transform ${
           Opensidebar ? 'translate-x-0' : 'translate-x-full'
-         } md:hidden transition-transform duration-300 ease-in-out bg-white w-52 h-[300px] shadow-lg z-50`}>
+         } md:hidden transition-transform duration-300 ease-in-out bg-white w-52 h-full shadow-lg z-50`}>
           <button onClick={togglesidebar}><RxCross2 className='font-bold'/></button>
           <div className='text-[18px] text-[#213555] font-bold ssm:text-[18px] xsm:text-[18px] ml-8'>
           BotBuddy: The AI toys
