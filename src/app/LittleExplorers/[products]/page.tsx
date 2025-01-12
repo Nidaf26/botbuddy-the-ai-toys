@@ -11,7 +11,7 @@ interface PageProps {
     products:string
   }>
 }
-interface YoungInnovater{
+interface LittleExplorer{
   _id:string,
   productname:string,
   productdescription:string,
@@ -21,7 +21,7 @@ interface YoungInnovater{
  }
  function ProductPage({ params }: PageProps) {
   const [loading, setLoading] = useState(false)
-  const [product, setProduct] = useState<YoungInnovater| null>(null)
+  const [product, setProduct] = useState<LittleExplorer| null>(null)
   const [error, setError] = useState<string | null>(null)
   
   useEffect(() => {
@@ -35,8 +35,8 @@ interface YoungInnovater{
           setError('Invalid product ID')
           return
         }
-        const query = groq`*[_type == "youngInnovaters" && _id == $productId][0]`
-        const product = await client.fetch<YoungInnovater>(query, { productId })
+        const query = groq`*[_type == "LittleExplorers" && _id == $productId][0]`
+        const product = await client.fetch<LittleExplorer>(query, { productId })
         console.log("fetched product",product)
        
         if (!product) {

@@ -27,7 +27,7 @@ function Header() {
           <div className=' w-[310px] text-[18px] flex justify-between items-center ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
             <Link href={"/"}>Home</Link>
             <Link href={"/aboutus"}>About us</Link>
-            <Link href={"/AllProducts"}>Products</Link>
+            <Link href={"/contactUs"}>Contact us</Link>
             <span className='flex'>
             <Link href={"/Cart"} className='mt-1'><FaShoppingCart/></Link>
             <span className='h-4 w-4 rounded-[50%] flex justify-center text-white items-center text-sm bg-red-500'></span>
