@@ -212,10 +212,10 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
 
+      </section >
         <h1 className="font-bold text-[40px] text-center">Unique Selling Point</h1>
-      <section className="grid grid-cols-3 grid-rows-1 p-11">
+      <section className="grid grid-cols-3 grid-rows-1 p-11 gap-2">
         <div className="flex justify-center items-center">
            <span className="bg-[#ffffff] shadow-xl">
             <Image height={150} width={150} src={"/Images/affodable.webp"} alt="affordable prices"></Image>
