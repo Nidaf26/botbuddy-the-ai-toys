@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 function Page() {
   return (
     <main>
@@ -12,21 +13,22 @@ function Page() {
                 </div>
             </div>
       </section>
-      <section className='m-5'>
-        <h1 className='text-[35px] font-bold '>Aboutus</h1>
+      <section className='m-10 flex justify-center items-center flex-col text-center'>
+        <Image height={400} width={400} src={"/Images/Botbuddy Logo.png"} alt='aboutus Image'></Image>
+        <h1 className='text-[35px] font-bold mt-5 text-[#6a51a4]'>About Us</h1>
         <p>BOTBUDDY: THE AI TOYS an artificial intelligence-based company focused on interactive, educational
           AI-powered toys, aiming to offer personalized and captivating learning experiences for individual 
           groups. Our business aims to design, develop and market AI-powered toys that promote learning, 
           creativity and entertainment while adapting to each child&apos;s development phase.
         </p>
-        <h1 className='text-[35px] font-bold '>Our Mission</h1>
+        <h1 className='text-[35px] font-bold mt-5 text-[#6a51a4]'>Our Mission</h1>
         <p>
         At BOTBUDDY, our mission is to design, develop, and deliver innovative AI-powered toys that make learning 
         fun, engaging, and personalized for children of all ages. We strive to empower kids with essential skills, 
         knowledge, and creativity, while providing parents with peace of mind and confidence in their children&apos;s 
         educational journey
         </p>
-        <h1 className='text-[35px] font-bold '>Our vision</h1>
+        <h1 className='text-[35px] font-bold mt-5 text-[#6a51a4] '>Our vision</h1>
         <p>Our vision at BOTBUDDY is to revolutionize the future of learning and play by harnessing the power of 
           artificial intelligence. We aim to become the leading provider of AI-driven educational toys, inspiring
           a love of learning, creativity, and innovation in children worldwide. Through our commitment to 

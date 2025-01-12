@@ -166,7 +166,7 @@ export default function Home() {
             <Image
              height={500}
              width={500}
-              className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
+              className="lg:w-3/5 md:w-1/2 object-contain object-center rounded-lg md:mt-0 mt-12"
               src="/Images/steps.png"
               alt="step"
             />
