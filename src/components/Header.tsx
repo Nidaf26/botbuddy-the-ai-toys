@@ -50,15 +50,14 @@ function Header() {
           <button onClick={togglesidebar}><RxCross2 className='font-bold'/></button>
           <div className='text-[18px] flex justify-center items-center text-[#213555] font-bold ssm:text-[18px] xsm:text-[18px] ml-8'>
           <Image height={40} width={40} src={"/Images/Botbuddy Logo.png"} alt='logo' className='rounded-[50%]'></Image>
-          BotBuddy: The AI toys
+           BotBuddy: The AI toys
           </div>
           <div className=' w-[280px] flex justify-between items-center mt-3 flex-col gap-5 ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
             <Link href={"/"}>Home</Link>
             <Link href={"/aboutus"}>About us</Link>
-            <Link href={"/AllProducts"}>Products</Link>
+            <Link href={"/contactUs"}>Contact us</Link>
             <span className='flex'>
             <Link href={"/Cart"} className='mt-1'><FaShoppingCart/></Link>
-            <span className='h-4 w-4 rounded-[50%] text-white flex justify-center items-center text-sm bg-red-500'></span>
             </span>
           </div>
         </nav>

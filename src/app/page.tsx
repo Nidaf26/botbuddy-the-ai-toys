@@ -1,13 +1,53 @@
 import Heroparallax from "@/components/hero-parallax";
 import Image from "next/image";
+import Link from "next/link";
 export default function Home() {
   return (
     <main>
       <section>
         <Heroparallax />
       </section>
+  
+       <section className='overflow-x-hidden'> 
+            <div>
+                <div className='flex justify-center items-center flex-col'>
+                  <span className='flex justify-center flex-col items-center mt-11'>
+                   <h1 className='text-[40px] font-bold ssm:text-[40px] xsm:text-[40px] xsm:text-center  '>Our Most Selling Products</h1>
+                 </span>
+                </div>
+            </div>
+       </section>
+
+      <section className="grid grid-cols-3 grid-rows-1 p-11 sm:grid-cols-2 sm:grid-rows-2 msm:grid-cols-1 msm:grid-rows-1 ssm:grid-cols-1 ssm:grid-rows-1 xsm:grid-cols-1 xsm:grid-rows-1">
+        <div className="flex justify-center items-center">
+         <div className="w-[280px] text-center">
+           <Image height={280} width={280} src={"/Images/TalkyToon.png"} alt="product Image"></Image>
+           <p>⭐4.5</p>
+           <p>Interactive cat robot that engages kids in conversation, enhancing communication skills and social c...</p>
+          <Link href={"/LittleExplorers"} className="flex justify-center items-center bg-black text-white h-[35px] rounded-sm">product Page </Link>
+         </div>
+        </div>
+        <div className="flex justify-center items-center">
+         <div className="w-[280px] text-center">
+           <Image height={280} width={280} src={"/Images/CodeGuru.png"} alt="product Image"></Image>
+           <p>⭐4.7</p>
+           <p>A coding adventure game where players solve puzzles, create algorithms, and learn programming concep...</p>
+          <Link href={"/youngInnovaters"} className="flex justify-center items-center bg-black text-white h-[35px] rounded-sm">product Page </Link>
+         </div>
+        </div>
+        <div className="flex justify-center items-center">
+         <div className="w-[280px] text-center">
+           <Image height={280} width={280} src={"/Images/Finopoly.png"} alt="product Image"></Image>
+           <p>⭐4.9</p>
+           <p>Get ready to shape the next generation of financial leaders with Finopoly! This innovative board gam...</p>
+          <Link href={"/TechTrialBlazers"} className="flex justify-center items-center bg-black text-white h-[35px] rounded-sm">product Page </Link>
+         </div>
+        </div>
+      </section>
+
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
+         <h1 className="text-[40px] font-bold text-center">Customers Guide</h1>
           <div className="flex flex-wrap w-full">
             <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
               <div className="flex relative pb-12">
@@ -28,7 +68,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex-grow pl-4">
-                  <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
+                  <h2 className="font-bold title-font text-sm text-gray-900 mb-1 tracking-wider">
                     STEP 1:Browse and Select a Product
                   </h2>
                   <p className="leading-relaxed">
@@ -57,7 +97,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex-grow pl-4">
-                  <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
+                  <h2 className="font-bold title-font text-sm text-gray-900 mb-1 tracking-wider">
                     Step 2: View Product Details
                   </h2>
                   <p className="leading-relaxed">
@@ -88,7 +128,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex-grow pl-4">
-                  <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
+                  <h2 className="font-bold title-font text-sm text-gray-900 mb-1 tracking-wider">
                     Step 3: Add to Cart
                   </h2>
                   <p className="leading-relaxed">
@@ -121,7 +161,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex-grow pl-4">
-                  <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
+                  <h2 className="font-bold title-font text-sm text-gray-900 mb-1 tracking-wider">
                     Step 4: Checkout
                   </h2>
                   <p className="leading-relaxed">
@@ -152,7 +192,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex-grow pl-4">
-                  <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
+                  <h2 className="font-bold title-font text-sm text-gray-900 mb-1 tracking-wider">
                     Step 5: Payment Method
                   </h2>
                   <p className="leading-relaxed">
@@ -173,6 +213,25 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </main>
+
+        <h1 className="font-bold text-[40px] text-center">Unique Selling Point</h1>
+      <section className="grid grid-cols-3 grid-rows-1 p-11">
+        <div className="flex justify-center items-center">
+           <span className="bg-[#ffffff] shadow-xl">
+            <Image height={150} width={150} src={"/Images/affodable.webp"} alt="affordable prices"></Image>
+           </span>
+        </div>
+        <div className="flex justify-center items-center">
+           <span className="bg-[#ffffff] shadow-xl">
+            <Image height={150} width={150} src={"/Images/delivery Image.jpg"} alt="affordable prices"></Image>
+           </span>
+        </div>
+        <div className="flex justify-center items-center">
+           <span className="bg-[#ffffff] shadow-xl">
+            <Image height={150} width={150} src={"/Images/madeInPak.jpg"} alt="affordable prices"></Image>
+           </span>
+        </div>
+      </section>
+  </main>
   );
 }

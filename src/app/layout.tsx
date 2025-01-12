@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Josefinsans.className} antialiased`}
+        className={`${Josefinsans.className} antialiased text-black`}
       >
         <Header/>
         <Categories />

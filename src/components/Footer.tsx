@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
+import Link from 'next/link';
 
 function Footer() {
   return (
@@ -28,7 +29,7 @@ function Footer() {
         <span className='xsm:flex xsm:justify-center xsm:flex-col xsm:items-center text-center'>
            <h6 className='font-bold text-[18px]'>Customer support</h6>
              <ul className='text-white sm:text-sm cursor-pointer'>
-               <li>FAQ</li>
+               <Link href={"/FAQ"}>FAQ</Link>
                 <li>Blog</li>
                 <li>Help center</li>
                 <li>Privacy</li>

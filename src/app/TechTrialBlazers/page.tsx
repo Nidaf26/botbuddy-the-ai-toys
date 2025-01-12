@@ -47,7 +47,7 @@ function Page() {
   }
 
   return (
-    <section className="grid grid-cols-2 grid-rows-1 bg-[#dfd9f8]">
+    <section className="grid grid-cols-2 p-11 gap-2 grid-rows-1 bg-[#dfd9f8] msm:grid-cols-1 msm:grid-rows-2 xsm:grid-cols-1 xsm:grid-rows-2 ssm:grid-cols-1 ssm:grid-rows-2">
       {Data.map((product) => (
         <div className="flex justify-center items-center" key={product._id}>
           <div
