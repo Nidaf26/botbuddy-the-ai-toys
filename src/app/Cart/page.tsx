@@ -30,12 +30,12 @@ function Page() {
           alt='controller'
           src={"/Images/CodeGuru.png"}>
           </Image>
-          <p>32.00 PKR</p>
+          <p> 13000 PKR</p>
           <span className='h-[44px] w-[72px] flex justify-center items-center border-[1px] ml-2 border-solid border-black rounded-sm gap-2'>
             <p>01</p>
             <CgArrowsScrollV />
           </span>
-          <p>219.00 PKR</p>
+          <p>13000 PKR</p>
         </div>       
         <div className='h-[72px] flex justify-around items-center'>
           <Image
@@ -44,12 +44,12 @@ function Page() {
           alt='controller'
           src={"/Images/Finopoly.png"}>
           </Image>
-          <p>32.00 PKR</p>
+          <p>8000 PKR</p>
           <span className='h-[44px] w-[72px] flex justify-center items-center border-[1px] ml-2 border-solid border-black rounded-sm gap-2'>
             <p>01</p>
             <CgArrowsScrollV />
           </span>
-          <p>219.00 PKR</p>
+          <p> 8000 PKR</p>
         </div>       
         <div className='h-[72px] flex justify-around items-center'>
           <Image
@@ -58,12 +58,12 @@ function Page() {
           alt='controller'
           src={"/Images/TalkyToon.png"}>
           </Image>
-          <p>32.00 PKR</p>
+          <p>15000 PKR</p>
           <span className='h-[44px] w-[72px] flex justify-center items-center border-[1px] ml-2 border-solid border-black rounded-sm gap-2'>
             <p>01</p>
             <CgArrowsScrollV />
           </span>
-          <p>219.00 PKR</p>
+          <p>15000 PKR</p>
         </div>       
         <div className='flex justify-around items-center '>
           <button className='h-[56px] w-[206px] text-white border-[1px] bg-[#6a51a4] border-solid border-black rounded-sm xsm:text-sm xsm:w-[130px] ssm:w-[150px]'>Return To Shop</button>
@@ -96,7 +96,7 @@ function Page() {
           <span className='flex w-[422px] justify-between border-b-[1px] border-solid ml-2 border-black
            sm:w-[280px] xsm:w-[200px] ssm:w-[280px] msm:w-[380px] '>
             <p>Subtotal:</p>
-            <p>1750 PKR</p>
+            <p>36000 PKR</p>
           </span>
           <span className='flex w-[422px] justify-between border-b-[1px] border-solid ml-2 border-black
            sm:w-[280px] xsm:w-[200px] ssm:w-[280px] msm:w-[380px]'>
@@ -106,7 +106,7 @@ function Page() {
           <span className='flex w-[422px] justify-between border-b-[1px] border-solid ml-2 border-black
            sm:w-[280px] xsm:w-[200px] ssm:w-[280px] msm:w-[380px]'>
             <p>Total:</p>
-            <p>2250 PKR</p>
+            <p>36500 PKR</p>
           </span>
           <button className='h-[56px] w-[211px] sm:w[211px] bg-[#6a51a4] rounded-sm text-white 
           sm:text-sm xsm:w-[140px]'>Procees to checkout</button>
